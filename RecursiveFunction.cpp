@@ -3,7 +3,7 @@
 //
 #include<iostream>
 using namespace std;
-int factorial(int n) {
+long factorial(long n) {
     if (n==0 || n==1)
         return 1;
     else
@@ -11,9 +11,9 @@ int factorial(int n) {
 }
 
 int main() {
-    int n;
+    long long n, result;
     cout << "Enter a number: ";
     cin >> n;
-    int result = factorial(n);
+    result = factorial(n);
     cout << "The factorial of the given number is: " << result << endl;
 }
