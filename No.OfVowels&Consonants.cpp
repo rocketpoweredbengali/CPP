@@ -3,10 +3,6 @@
 //
 #include <iostream>
 using namespace std;
-
 int main() {
-    string str = "HELLO";
-    string sub = str.substr(1,2);
-    cout<<sub;
-    return 0;
+
 }
